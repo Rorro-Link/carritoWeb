@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Spot</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">Tech Spot</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu"><img src="images/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Audifonos gamers</h1>
+                                <div class="precios">
+                                    <p class="precio-1">$34.990</p>
+                                    <p class="precio-2">$29.990</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="images/bg1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Audifonos profecionales</h1>
+                                <div class="precios">
+                                    <p class="precio-1">$44.990</p>
+                                    <p class="precio-2">$39.990</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="images/bg2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Audifonos inalambricos</h1>
+                                <div class="precios">
+                                    <p class="precio-1">$54.990</p>
+                                    <p class="precio-2">$29.990</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="images/bg3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </header>
+
+    <hr>
+
+    <section class="promos container" id="lista-1">
+        <h2>Descuentos</h2>
+        <div class="categorias">
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Nintendo switch</h3>
+                    <div class="precios">
+                        <p class="precio-1">$299.900</p>
+                        <p class="precio">$269.000</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="images/consola1.png" alt="">
+                </div>
+            </div>
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Juego Nintendo Switch</h3>
+                    <div class="precios">
+                        <p class="precio-1">$49.990</p>
+                        <p class="precio">$35.900</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="images/juego1.png" alt="">
+                </div>
+            </div>
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Teclado Gamers</h3>
+                    <div class="precios">
+                        <p class="precio-1">$79.990</p>
+                        <p class="precio">$55.900</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="images/teclado1.png" alt="">
+                </div>
+            </div>
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Control PS4</h3>
+                    <div class="precios">
+                        <p class="precio-1">$79.990</p>
+                        <p class="precio">$49.900</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="images/control2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="products container" id="lista-2">
+        <h2>Nuevos Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/juego2.png" alt="">
+                        <div class="product-txt">
+                            <h3>Bayoneta</h3>
+                            <p>Nintendo Switch</p>
+                            <p class="precio">$49.900</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/ph2.png" alt="">
+                        <div class="product-txt">
+                            <h3>Sound Core</h3>
+                            <p>Gamers</p>
+                            <p class="precio">$29.900</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/ph3.png" alt="">
+                        <div class="product-txt">
+                            <h3>Blue Sound</h3>
+                            <p>Calidad premiun</p>
+                            <p class="precio">$59.900</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/ph4.png" alt="">
+                        <div class="product-txt">
+                            <h3>Red Core</h3>
+                            <p>Gamers</p>
+                            <p class="precio">$44.900</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="products container" id="lista-3">
+        <h2>Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/figura1.png" alt="">
+                        <div class="product-txt">
+                            <h3>Amiibo</h3>
+                            <p>Nintendo</p>
+                            <p class="precio">$39.900</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/figura2.png" alt="">
+                        <div class="product-txt">
+                            <h3>Amiibo</h3>
+                            <p>Nintendo</p>
+                            <p class="precio">$29.900</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/figura3.png" alt="">
+                        <div class="product-txt">
+                            <h3>Amiibo</h3>
+                            <p>Nintendo</p>
+                            <p class="precio">$39.900</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/figura4.png" alt="">
+                        <div class="product-txt">
+                            <h3>Amiibo</h3>
+                            <p>Nintendo</p>
+                            <p class="precio">$44.900</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+
+    <footer class="footer container">
+
+        <div class="link">
+            <h3>Ofertas</h3>
+            <ul>
+                <li><a href="#">Descuentos</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Dia del niño</a></li>
+                <li><a href="#">Black friday</a></li>
+            </ul>
+
+        </div>
+        <div class="link">
+            <h3>¿Nesecitas ayuda?</h3>
+            <ul>
+                <li><a href="#">Estado de mi despacho</a></li>
+                <li><a href="#">Revisa tu boleta</a></li>
+                <li><a href="#">Orden de servicio</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+            </ul>
+
+        </div>
+        <div class="link">
+            <h3>Acerca de Tech Spot</h3>
+            <ul>
+                <li><a href="#">Quiénes somos</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Garantías</a></li>
+                <li><a href="#">Sustentabilidad</a></li>
+            </ul>
+
+        </div>
+        <div class="link">
+            <h3>Contacto</h3>
+            <ul>
+                <li><a href="#">Centro de ayuda</a></li>
+                <li><a href="#">Nuestras tiendas</a></li>
+                <li><a href="#">Medios de pago</a></li>
+                <li><a href="#">Nuestras redes</a></li>
+            </ul>
+
+        </div>
+        <div class="link">
+            <h3>Tech Spot</h3>
+            <p>
+                Todos los derechos reservados y nuestra politica de sustentabilidad.
+            </p>
+        </div>
+
+    </footer>
+
+    <!-- Formulario de Registro e Inicio de Sesión -->
+    <div class="auth-container">
+        <div id="login-form">
+            <h2>Iniciar Sesión</h2>
+            <form id="form-login">
+                <input type="text" id="username-login" placeholder="Nombre de usuario" required
+                    aria-label="Nombre de usuario">
+                <input type="password" id="password-login" placeholder="Contraseña" required aria-label="Contraseña">
+                <button type="submit" aria-label="Iniciar Sesión">Iniciar Sesión</button>
+            </form>
+        </div>
+
+        <div id="register-form">
+            <h2>Registro</h2>
+            <form id="form-register">
+                <input type="text" id="username-register" placeholder="Nombre de usuario" required
+                    aria-label="Nombre de usuario">
+                <input type="email" id="email-register" placeholder="Correo electrónico" required
+                    aria-label="Correo electrónico">
+                <input type="password" id="password-register" placeholder="Contraseña" required aria-label="Contraseña">
+                <input type="password" id="confirm-password-register" placeholder="Confirmar contraseña" required
+                    aria-label="Confirmar contraseña">
+                <button type="submit" aria-label="Registrarse">Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
