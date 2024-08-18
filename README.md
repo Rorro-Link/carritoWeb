@@ -35,7 +35,7 @@ El desarrollo del proyecto se llevó a cabo en varias etapas:
 
 - *Uso de Variables CSS:* Para facilitar el mantenimiento y escalabilidad del proyecto, se utilizaron variables CSS para definir los colores principales del sitio. Esto permite realizar cambios globales de forma eficiente.
 
-- *HTML Semántico:* Se optó por utilizar etiquetas HTML5 semánticas (<header>, <main>, <section>, etc.) para mejorar la accesibilidad y SEO del sitio.
+- *HTML Semántico:* Se optó por utilizar etiquetas HTML5 semánticas (header, main, section, etc.) para mejorar la accesibilidad y SEO del sitio.
 
 - *JavaScript Modular:* Aunque se mantuvo el código JavaScript simple y funcional, se siguieron prácticas recomendadas como el uso de const y let, y se modularizó el código para mejorar la legibilidad y mantenimiento.
 
